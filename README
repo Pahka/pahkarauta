@@ -1,0 +1,25 @@
+Pahka home automation hardware (c) 2012 Teemu Hakala <temmi@iki.fi>
+
+directory structure:
+
+PETnode_basic/
+    Pahka Ethernet Terminus node with a bell
+    STM32F100 ENC28J60
+
+PETnode_minimal/
+    Pahka Ethernet Terminus node
+    STM32F100 ENC28J60
+
+PETnode_super/
+    Pahka Ethernet Terminus node with bells and whistles and gongs
+    STM32F104
+
+important_downloaded_files_from_other_sources/
+    documentation, libraries etc
+    (c) their respective owners
+
+risut/
+    Pahka demo platform submodules in deadbug splatter style or something
+
+
+

@@ -1,0 +1,12 @@
+Pahka demo platform module for triac dimming 240VAC
+
+block diagram:
+
+L  ----+---------------------------------+
+       |                                 |
+      MT2                               ZERO
+     TRIAC G---OPTO-(stm32)             CROSSING--OPTO-(stm32)
+      MT1                               DETECTOR
+L' ----+                                 |
+                                         |
+0  --------------------------------------+
