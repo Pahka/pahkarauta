@@ -1,0 +1,7 @@
+Pahka demo deadbug, RGB led indicator
+
+(portX_x)---(resistor)------R
+(portX_x)---(resistor)------G
+(portX_x)---(resistor)------B
+                            |
+(Vss)-----------------------+
