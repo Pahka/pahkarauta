@@ -6765,6 +6765,10 @@ general purpose rectifier, 1 A</description>
 <sheets>
 <sheet>
 <plain>
+<text x="111.76" y="81.28" size="1.778" layer="91">X1 pins:
+1:  L output
+2:  L input
+3:  N</text>
 </plain>
 <instances>
 <instance part="OK1" gate="-1" x="53.34" y="68.58"/>
@@ -6779,7 +6783,7 @@ general purpose rectifier, 1 A</description>
 <instance part="D3" gate="1" x="106.68" y="22.86"/>
 <instance part="D4" gate="1" x="99.06" y="30.48" rot="R90"/>
 <instance part="R3" gate="G$1" x="104.14" y="45.72"/>
-<instance part="OK2" gate="G$1" x="66.04" y="30.48" rot="MR0"/>
+<instance part="OK2" gate="G$1" x="50.8" y="30.48" rot="MR0"/>
 <instance part="R4" gate="G$1" x="81.28" y="27.94" rot="R90"/>
 <instance part="D5" gate="G$1" x="88.9" y="43.18"/>
 <instance part="R5" gate="G$1" x="15.24" y="38.1" rot="R90"/>
@@ -6845,12 +6849,8 @@ general purpose rectifier, 1 A</description>
 <pinref part="X1" gate="G$1" pin="B-1"/>
 <wire x1="91.44" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="T1" gate="1" pin="A2"/>
-<wire x1="96.52" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="68.58" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="45.72" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -6873,14 +6873,14 @@ general purpose rectifier, 1 A</description>
 <wire x1="99.06" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="OK2" gate="G$1" pin="C"/>
-<wire x1="76.2" y1="22.86" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="22.86" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="OK2" gate="G$1" pin="A"/>
-<wire x1="76.2" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="33.02" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="86.36" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
@@ -6893,14 +6893,14 @@ general purpose rectifier, 1 A</description>
 <wire x1="43.18" y1="63.5" x2="-2.54" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="OK2" gate="G$1" pin="GND"/>
 <wire x1="-2.54" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="27.94" x2="-2.54" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="OK2" gate="G$1" pin="OUT"/>
-<wire x1="55.88" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="30.48" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="30.48" x2="5.08" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="2"/>
@@ -6912,7 +6912,7 @@ general purpose rectifier, 1 A</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="OK2" gate="G$1" pin="VCC"/>
-<wire x1="55.88" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="33.02" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="3"/>
 <wire x1="25.4" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
@@ -6937,9 +6937,24 @@ general purpose rectifier, 1 A</description>
 <wire x1="2.54" y1="71.12" x2="-5.08" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="45.72" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="B-2"/>
+<wire x1="111.76" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
