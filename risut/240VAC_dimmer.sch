@@ -6765,10 +6765,10 @@ general purpose rectifier, 1 A</description>
 <sheets>
 <sheet>
 <plain>
-<text x="111.76" y="81.28" size="1.778" layer="91">X1 pins:
-1:  L output
-2:  L input
-3:  N</text>
+<text x="111.76" y="83.82" size="1.778" layer="91">X1 pins:
+1: L input
+2: N
+3: L output</text>
 </plain>
 <instances>
 <instance part="OK1" gate="-1" x="53.34" y="68.58"/>
